@@ -1,4 +1,5 @@
 # DBNet_ship-Text-Detection
+DNA기반 "이동형 모바일 환경 인공지능을 활용한 경계감시 시스템 기술개발(A)의 일부 - 선박 문자열 검출 시스템 "
 
 
 #### Introduction
