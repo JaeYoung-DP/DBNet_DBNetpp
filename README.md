@@ -3,9 +3,24 @@
 
 #### Introduction
 
-해당 모델은 opentoolkit인 mmocr-DBNet,DBNet++ / github-DBNet 을 사용하였습니다.
+해당 모델은 opentoolkit인 mmocr-DBNet,DBNet++ / github-DBNet 을 활용하여 한국 선박 문자열 검출 시스템에 적용하였습니다.
 
-출처 : 
+### DBNet
+||Precision|Recall|H-mean|
+|:-----:|:----:|:---:|:---:|
+|한국어|0.9790|0.8750|0.9241|
+|영어|0.9000|0.7397|0.8120|
+|숫자|0.9050|0.7902|0.8438|
+
+### DBNet++
+||Precision|Recall|H-mean|
+|:-----:|:----:|:---:|:---:|
+|한국어|0.9405|0.9875|0.9634|
+|영어|0.9381|0.7982|0.8626|
+|숫자|0.9745|0.7688|0.8596|
+
+
+출처: 
 
 https://mmocr.readthedocs.io/en/dev-1.x/user_guides/train_test.html
 
