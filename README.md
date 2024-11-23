@@ -4,7 +4,7 @@
 ```
 CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/textdet/dbnetpp/dbnetpp_resnet50-dcnv2_fpnc_1200e_icdar2015.py
 ```
-### Test
+#### Test
 
 ```
 CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/textdet/dbnetpp/dbnetpp_resnet50-dcnv2_fpnc_1200e_icdar2015.py dbnetpp.pth --work-dir () --show-dir ()
