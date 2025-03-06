@@ -1,5 +1,8 @@
 # DBNet_ship-Text-Detection
 
+환경셋팅
+- Docker : pytorch/pytorch:1.8.1-cuda11.1-cudnn8-devel
+
 #### Train
 ```
 CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/textdet/dbnetpp/dbnetpp_resnet50-dcnv2_fpnc_1200e_icdar2015.py
