@@ -17,12 +17,6 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/textdet/dbnetpp/dbnetpp_resn
 
 해당 모델은 opentoolkit인 mmocr-DBNet,DBNet++ / github-DBNet 을 활용하여 한국 선박 문자열 검출 시스템에 적용하였습니다.
 
-### DBNet
-||Precision|Recall|H-mean|
-|:-----:|:----:|:---:|:---:|
-|한국어|0.9790|0.8750|0.9241|
-|영어|0.9000|0.7397|0.8120|
-|숫자|0.9050|0.7902|0.8438|
 
 ### DBNet++
 ||Precision|Recall|H-mean|
